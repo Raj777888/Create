@@ -330,18 +330,31 @@ li {
 .services{
  display: grid;
  grid-template-columns: 1fr 1fr 1fr;
- width: 80%;
+ width: 90%;
  margin: 0rem auto;
 
 }
 .web{
   width: fit-content;
 }
-.web-paragraph{
-
+.width{
+width: 300px;
 }
 .learn{
   text-decoration-line: underline;
   color: var(--primary);
   font-size: 1rem;
+}
+.wrap-computer{
+  display: flex;
+  align-items: first baseline baseline;
+  width: fit-content;
+  gap: 10px;
+/* justify-content: space-evenly; */
+}
+.computer-Vector {
+width: 3rem;
+}
+.computer-Vector-sub{
+  width: 100%;
 }
