@@ -384,6 +384,8 @@ width: 3rem;
 .about-us-sub{
   width: 80%;
   margin: 0rem auto;
+  display: flex;
+
 }
 .about1{
   padding: 1rem 0rem;
@@ -428,9 +430,18 @@ width: 3rem;
   color: var(--dark);
   /* width: 50%; */
 } 
+.tablet-and-laptop{
+  /* color: var(--primary); */
+  caret-color:var(--primary)
+}
 .fit{
   
 }
 .about2{
   width: 50%;
+}
+.about2-sub{
+  width: 90%;
+  /* margin: 2rem auto; */
+  
 }
