@@ -63,7 +63,6 @@ h2 {
 }
 
 h3 {
-  font-size: 1.5rem;
   font-weight: 400;
 }
 
@@ -145,24 +144,25 @@ a {
   color: var(--primary);
 }
 
-.watchvideo {
-  letter-spacing: 1rem;
-  text-transform: uppercase;
-}
+
 
 .btn {
-  border-radius: 1rem;
-  letter-spacing: 2px;
+  border-radius: 3rem;
   padding: 1rem 1.875rem;
-  font-size: 0.75rem;
+  font-size: .9rem;
   background-color: var(--primary);
   line-height: 1.2;
   color: #ffff;
   border: 0px none;
+  font-family: var(--font-family-sans-serif);
+}
+.watchvideo{
+  font-size: 0.75rem;
 }
 
 samp {
   color: var(--primary);
+  letter-spacing: 0px;
 }
 
 .text {
@@ -255,11 +255,7 @@ li {
 .computer {
   /* display: flex; */
   width: 100%;
-  /* background-color: red; */
-  /* height: 500px; */
   margin: 0rem 0rem 5rem;
-  /* padding: 80px 0px; */
-  /* align-items: center; */
 }
 
 .mains {
@@ -267,11 +263,8 @@ li {
   flex-wrap: wrap;
   width: 80%;
   align-items: center;
-  /* height: 100%; */
   margin: 0px auto;
   padding: 1rem 0rem;
-  /* margin-left: 90px;
-  margin-right: 90px; */
   background-color: black;
   justify-content: center;
   gap: 30px;
@@ -283,7 +276,6 @@ li {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
-  /* align-items: stretch; */
 }
 
 .imgsss {
@@ -421,9 +413,11 @@ li {
   padding: 5rem 0rem;
 }
 
-.heading-services {
+.main-marjin-bottom{
+
   margin-bottom: 3rem;
 }
+
 
 .heading-of-our-services {
   width: fit-content;
@@ -544,9 +538,8 @@ li {
 
 .paragraph {
   font-size: 1.25rem;
-  /* word-break: break-all; */
   color: var(--dark);
-  /* width: 50%; */
+  margin-bottom: 1rem;
 }
 
 .tablet-and-laptop {
@@ -1013,7 +1006,12 @@ input {
   #Subscribe {
     width: 40%;
   }
+.sub-ending{
+  gap: 10px;
+}
 
+
+ 
 }
 
 @media (max-width:460px) {
